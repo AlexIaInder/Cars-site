@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100vw;
   overflow-x: hidden;
@@ -63,7 +65,12 @@ a {
 .title-page {
   font-size: 150px;
   font-weight: 900;
+  margin-top: 160px;
   color: #db3138;
+}
+.dimont-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .icon-dimont {
@@ -77,6 +84,7 @@ a {
   color: #ffff;
   font-weight: 500;
   font-size: 40px;
+  margin-top: 40px;
   margin-left: 515px;
 }
 
@@ -84,7 +92,7 @@ a {
   cursor: pointer;
   position: relative;
   width: fit-content;
-  margin: auto;
+  margin: 40px auto;
   height: 60px;
   padding: 0 30px;
 }
@@ -92,6 +100,7 @@ a {
 .our-services__button-content {
   margin: auto;
   position: relative;
+  top: 12px;
   z-index: 2;
   font-size: 24px;
   font-weight: 600;
@@ -123,6 +132,7 @@ a {
 }
 
 .title__contact {
+  margin-top: 10px;
   font-weight: 600;
   font-size: 18px;
   text-align: center;
@@ -144,6 +154,7 @@ a {
 }
 
 .contact__item {
+  height: 130px;
   border-right: 1px solid #898989;
 }
 
@@ -154,8 +165,9 @@ a {
 }
 
 .contact__item--style {
+  margin-top: 10px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 23px;
   color: #db3138;
 }
 
@@ -165,10 +177,13 @@ a {
   height: 745px;
   margin: 180px auto;
 }
+.progress__block {
+margin-right: 17px;
+}
 
 .progress__title {
   font-weight: 600;
-  font-size: 52px;
+  font-size: 40px;
   color: #ffff;
   text-transform: uppercase;
 }
@@ -183,6 +198,7 @@ a {
 .statistic-container {
   display: flex;
   justify-content: flex-end;
+  margin-top: 11px;
 }
 
 .statistics__title {
@@ -225,6 +241,7 @@ a {
 
 .statistic__icon--position {
   margin-bottom: 10px;
+  margin-left: 115px;
 }
 
 .order-two {
@@ -245,7 +262,7 @@ a {
   justify-content: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 7rem;
+
 }
 
 .itc-slider__img:not(:last-child) {
@@ -278,13 +295,16 @@ a {
 }
 
 .advantage__title {
+  display: flex;
+  align-items: center;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 22px;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .advantage__text {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 24px;
   color: #ffffff;
@@ -301,7 +321,7 @@ a {
 
 .advantage__logo {
   margin-right: 36px;
-  margin-top: 13px;
+
 }
 
 .advantage__dimont-container {
@@ -364,7 +384,8 @@ a {
 
 .service__button--container {
   display: flex;
-  margin-top: 43px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .service__button:first-child {
@@ -399,8 +420,11 @@ a {
   height: 428px;
   border: 1px solid #898989;
 }
-
+.service__block svg {
+  margin-bottom: 42px;
+}
 .service__block-title {
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
@@ -434,6 +458,136 @@ a {
   text-transform: uppercase;
 }
 
+.service__button-title:hover {
+  color: #DB3138;
+}
+
 .service__items > li {
   margin-right: 24px;
+}
+
+.advantage__slider--second-block {
+  flex-direction: row-reverse;
+  margin-top: 180px;
+  margin-right: 134px;
+}
+.advantage__title--block svg {
+  margin-right: 36px;
+}
+.advantage-slider--second-block {
+  margin-right: 134px;
+  margin-bottom: 180px;
+}
+.portfolio__container {
+  margin-top: 50px;
+}
+.portfolio__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio__items >li:hover {
+  transform: scale(1.1);
+}
+.feedback__container {
+
+}
+.container-feedback{
+  width: 750px;
+height: 500px;
+margin: 120px auto 100px auto;
+}
+.feedback__block {
+  margin-bottom: 24px;
+}
+
+.feedback__dimont-container {
+  position: relative;
+  left: 35%;
+
+}
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.feedback__input {
+  width: 306px;
+  height: 47px;
+  background: #141414;
+  border: 1px solid #898989;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffff;
+}
+.feedback__input:hover {
+  border-color: white;
+}
+.feedback__textarea:hover {
+  border-color: white;
+}
+.feedback__textarea:hover::placeholder
+{
+  color: white;
+}
+
+.feedback__input:hover::placeholder
+{
+  color: white;
+}
+
+.feedback__input:first-child {
+  margin-right: 24px;
+}
+.feedback__title {
+  font-size: 49px;
+}
+.feedback__textarea {
+  width: 640px ;
+  height: 150px;
+  background: #141414;
+  border: 1px solid #898989;
+  color: #ffff;
+  font-size: 16px;
+
+}
+.feedback__button {
+  top: 28%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.feedback__button-container {
+  margin: 20px 92px;
+
+}
+.feedback__contact {
+  display: flex;
+}
+.feedback__info {
+  margin-left: 56px;
+  margin-top: 10px;
+}
+.feedback__mail {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+.feedback__svg {
+  position: relative;
+  top: 15%;
+}
+.footer {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  color: #FFFFFF;
+}
+.footer__container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
