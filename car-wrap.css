@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%),
+    url(/image/car-wraps.jpg);
+    background-size: cover;
+    height: 1050px;
+    margin-bottom: 180px;
+}
+.title-wrap-page {
+    font-size: 80px;
+}
+.our-services__button .overflow  {
+     width: 88px;
+ }
+.advantage-wrap-page {
+    height: 339px;
+}
+.advantage__title-wrap-page {
+    font-size: 32px;
+}
+.advantage__block-svg {
+    margin-top: 95px;
+    margin-left: 50px;
+}
+.advantage__block-svg--position{
+    margin-bottom: 21px;
+}
+.advantage__svg{
+    margin-right: 60px;
+}
+.advantage__dimont-container-wrap {
+    left:0
+}
+.advantage__dimont-container {
+    left: 34%;
+}
+.service__wrap{
+    margin-bottom: 200px;
+}
+.portfolio__dimont-container {
+    position: relative;
+    left: 24%;
+}
+
+.price__table {
+    width: 100%;
+    margin: 60px auto 180px auto;
+    text-align: center;
+}
+.price__table thead {
+
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color:#ffff;
+}
+
+
+.price__table td:first-child {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #DB3138;
+
+}
+.price__title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__table td:nth-child(n+2) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+.price__dimont-container {
+    right: 2%;
+}
