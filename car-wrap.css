@@ -3,7 +3,7 @@ html {
 }
 header {
     background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%),
-    url(/image/car-wraps.jpg);
+    url(./image/car-wraps.jpg);
     background-size: cover;
     height: 1050px;
     margin-bottom: 180px;
